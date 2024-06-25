@@ -4,7 +4,7 @@ namespace xadrez
 {
     internal class Rei : Peca
     {
-        public PartidaDeXadrez Partida { get; set; }
+        public PartidaDeXadrez Partida { get;  private set; }
         public Rei(Tabuleiro tab, Cor cor, PartidaDeXadrez partida) : base(tab, cor) { 
             Partida = partida;
         }
